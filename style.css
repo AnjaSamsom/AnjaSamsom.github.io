@@ -168,12 +168,31 @@ a:active { text-decoration: none; }
     grid-area:2/2/3/3;
 }
 
-#detail{
-    width: 80%;
-    margin: auto;
-    padding: 10% 1.5%;
-    margin: auto;
-    padding: 2.5%;
-    text-align: center;
+.img_small{
+    width:12em;
+    padding: 8%;
 }
+
+.grid3{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 30 em 30em 30em 30em;
+    margin: auto;
+
+}
+
+.detail{
+    padding: 8%;
+}
+
+.sml_txt{
+    font-size: x-small;
+}
+
+#intro{
+    width: 60%;
+    margin: auto;
+}
+
 
