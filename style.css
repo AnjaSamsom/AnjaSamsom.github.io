@@ -52,8 +52,6 @@ h1, h2, h3{
 
 h2, h3{
     color: var(--steel);
-
-
 }
 
 
@@ -69,7 +67,7 @@ h1{
 }
 
 
-.grid{
+.grid1{
     display:grid;
     grid-template-columns: auto;
     width: 80%;
@@ -128,3 +126,44 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+#anja_photo{
+    width: 60%;
+    margin: auto;
+    padding: 2.5%;
+}
+
+.header2{
+    margin: auto; 
+}
+
+
+.grid2{
+    display:grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+#bio{
+    width: 80%;
+    margin: auto;
+    padding: 10% 1.5%;
+    margin: auto;
+    padding: 2.5%;
+    text-align: center;
+}
+
+#photo{
+    grid-area:1/1/4/2;
+}
+
+#anja_headshot{
+    width: 20em;
+}
+
+#introduction{
+    grid-area:2/2/3/3;
+}
