@@ -167,3 +167,13 @@ a:active { text-decoration: none; }
 #introduction{
     grid-area:2/2/3/3;
 }
+
+#detail{
+    width: 80%;
+    margin: auto;
+    padding: 10% 1.5%;
+    margin: auto;
+    padding: 2.5%;
+    text-align: center;
+}
+
