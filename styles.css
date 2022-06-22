@@ -176,6 +176,10 @@ a:active { text-decoration: none; }
     padding: 8%;
 }
 
+.news_image{
+    width: 500px;
+}
+
 .grid3{
     display:grid;
     width: 80%;

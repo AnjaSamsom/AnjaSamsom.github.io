@@ -2,6 +2,11 @@ html{
     background-color: var(--sage);
 }
 
+body{
+    width: 80%;
+    font-size: smaller;
+}
+
 .grid1{
     display:grid;
     grid-template-columns: auto;
@@ -39,3 +44,6 @@ html{
     padding: 8%;
 }
 
+#anja_headshot{
+    width: 20em;
+}
