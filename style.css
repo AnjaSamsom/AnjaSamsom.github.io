@@ -169,17 +169,16 @@ a:active { text-decoration: none; }
 }
 
 .img_small{
-    width:12em;
+    width:15em;
     padding: 8%;
 }
 
 .grid3{
     display:grid;
-    width: 100%;
+    width: 80%;
     margin: auto;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 30 em 30em 30em 30em;
-
 
 }
 
@@ -188,10 +187,12 @@ a:active { text-decoration: none; }
 }
 
 .sml_txt{
-    font-size: x-small;
+    font-size: small;
+    width: 60%;
+    margin: auto;
 }
 
-#intro{
+.about{
     width: 60%;
     margin: auto;
 }
