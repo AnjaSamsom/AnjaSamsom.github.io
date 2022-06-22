@@ -197,4 +197,9 @@ a:active { text-decoration: none; }
     margin: auto;
 }
 
+#pdf{
+    width: 80%;
+    margin: auto 10%;
+}
+
 
