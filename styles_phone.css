@@ -1,0 +1,19 @@
+html{
+    background-color: var(--indigo);
+}
+
+
+
+.grid3{
+    display:grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: auto;
+
+}
+
+.img_small{
+    width:8em;
+    padding: 8%;
+}
+

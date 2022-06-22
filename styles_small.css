@@ -30,7 +30,12 @@ html{
     display:grid;
     width: 80%;
     margin: auto;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
 
+}
+
+.img_small{
+    width:10em;
+    padding: 8%;
 }
 
