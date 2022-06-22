@@ -17,7 +17,9 @@ body{
     border-radius: 0.2em;
     text-decoration: none;
     width:75%;
-    margin:auto
+    margin:auto;
+    border-style: dotted;
+    border-color:var(--sage);
 
 }
 
