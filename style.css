@@ -23,12 +23,13 @@ body{
 
 }
 
-a > nav{
-    color: var(--light);
-}
-
 .nav_text{
     color: var(--light);
+    font-family: "Georgia", serif;
+}
+
+.active{
+    color: var(--sage);
 }
 
 nav, footer{
@@ -203,5 +204,4 @@ a:active { text-decoration: none; }
     width: 80%;
     margin: auto 10%;
 }
-
 
