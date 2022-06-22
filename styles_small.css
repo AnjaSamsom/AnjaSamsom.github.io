@@ -1,0 +1,36 @@
+html{
+    background-color: var(--sage);
+}
+
+.grid1{
+    display:grid;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+#anja_photo{
+    width: 60%;
+    margin: auto;
+    padding: 2.5%;
+}
+
+
+.grid2{
+    display:grid;
+    grid-template-columns: auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+.grid3{
+    display:grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: auto;
+
+}
+
