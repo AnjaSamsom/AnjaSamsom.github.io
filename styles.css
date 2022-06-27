@@ -80,9 +80,7 @@ h1{
 
 
 .news_story{
-    width: 80%;
-    margin: auto;
-    padding: 10% 1.5%;
+    width: 70%;
     margin: auto;
     padding: 2.5%;
     text-align: center;
@@ -177,7 +175,7 @@ a:active { text-decoration: none; }
 }
 
 .news_image{
-    width: 500px;
+    width: 30em;
 }
 
 .grid3{

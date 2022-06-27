@@ -23,6 +23,10 @@ html{
     padding: 8%;
 }
 
+.news_image{
+    width: 9em;
+}
+
 .grid2{
     width: 60%;
 }
