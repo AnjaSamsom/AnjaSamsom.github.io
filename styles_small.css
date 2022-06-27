@@ -18,6 +18,24 @@ body{
     width: 20em;
 }
 
+h1{
+    font-size: medium;
+    max-width: 75%;
+}
+
+h2{
+    font-size: small;
+    max-width: 75%;
+}
+
+p{
+    font-size: x-small;
+    max-width: 75%;
+}
+
+.tweet{
+    width: 5em;
+}
 
 
 #anja_photo{
