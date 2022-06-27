@@ -2,6 +2,12 @@ html{
     background-color: var(--indigo);
 }
 
+.bio{
+    max-width:100%;
+    margin: auto;
+    font-size: xx-small;
+}
+
 
 
 .grid3{
