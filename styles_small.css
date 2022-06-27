@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    width: 80%;
+    width: 95%;
     font-size: smaller;
 }
 
@@ -50,6 +50,12 @@ p{
     grid-template-columns: auto;
     width: 80%;
     margin: auto;
+}
+
+.news_story{
+    padding: 1%;
+    margin:2%;
+    margin:auto;
 }
 
 

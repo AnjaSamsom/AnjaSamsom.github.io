@@ -8,6 +8,10 @@ html{
     font-size: xx-small;
 }
 
+.tweet{
+    display: none;
+}
+
 
 
 .grid3{
