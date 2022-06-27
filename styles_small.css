@@ -20,17 +20,14 @@ body{
 
 h1{
     font-size: medium;
-    max-width: 75%;
 }
 
 h2{
     font-size: small;
-    max-width: 75%;
 }
 
 p{
     font-size: x-small;
-    max-width: 75%;
 }
 
 .tweet{
@@ -70,6 +67,7 @@ p{
 .img_small{
     width:10em;
     padding: 8%;
+    margin: auto;
 }
 
 #anja_headshot{
