@@ -1,0 +1,85 @@
+.grid{
+    display:grid;
+    width: 100%;
+    margin: auto;
+}
+
+.header2{
+    grid-area:1/1/2/3;
+}
+
+.text{
+    grid-area:2/1/3/2;
+    padding: 5%;
+    margin: auto;
+}
+
+.img_small{
+    grid-area:3/1/4/2;
+    padding: 10%;
+    margin: auto;
+    width: 80%;
+
+}
+
+.header1{
+    grid-area:1/1/2/2;
+
+}
+nav, footer {
+    padding: 0.2%;
+    font-size: 0.6em;
+    border-radius: 0.4em;
+}
+.hidden{
+    display: none;
+}
+
+table{
+    max-width: 25em;
+    margin: auto auto auto auto;
+    font-size: small;
+}
+
+.shorter{
+    height: 35em;
+}
+
+.tablet_small{
+    height: 20em;
+}
+
+.fixed{
+    height: 20em;
+    width: 10em;
+}
+
+textarea{
+    width: 100%;
+}
+
+submit{
+    width:100%;
+}
+
+.rounded_button{
+    font-size: 0.8em;
+    width: 8em;
+}
+
+h2{
+    font-size: smaller;
+}
+
+h3{
+    font-size:smaller;
+}
+
+.p1, .p2, .p3, .p4{
+    margin:auto;
+    width: 80%;
+}
+
+p, ul{
+    font-size: x-small;
+}
