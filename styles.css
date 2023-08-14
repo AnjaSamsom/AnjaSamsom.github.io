@@ -144,6 +144,10 @@ body{
     border-color:var(--sage);
 }
 
+.news_image{
+    width: 30em;
+}
+
 #impact{
     grid-area:1/1/2/2;
 }
@@ -161,8 +165,6 @@ body{
 #scholarship{
     grid-area:4/1/5/2;
 }
-
-
 
 #sophomore_award{
     grid-area:5/1/6/2;
