@@ -10,22 +10,144 @@ html{
     background-color: var(--steel);
 }
 
+img{
+    width: 200px;
+}
+
+h1{
+    font-family: "Georgia", serif;
+    color: var(--sage);
+    font-size: 20pt;
+    width: 80%;
+    margin: auto;
+}
+
+h2{
+    font-family: "Georgia", serif;
+    text-decoration: none;
+    color: var(--steel);
+    font-size: 16pt;
+}
+
+h3{
+    font-family: "Georgia", serif;
+    text-decoration: none;
+    color: var(--steel);
+    font-size: 12pt;
+
+}
+
+
+p, ul{
+    color: var(--dark);
+    text-decoration: none;
+    font-family: "Georgia", serif;
+    padding: 2.5%
+}
+
+section {
+
+    display: flex;
+    margin: 4%;
+
+
+    #left{
+        width: 35%;
+        padding: 2%;
+        #anja_headshot, #wosv{
+            width:125%;
+            padding-bottom: 15%;
+        }
+
+        #wosv{
+            width:80%;
+            padding-bottom: 15%;
+        }
+
+
+    }
+
+    #center{
+        width: 50%;
+        padding: 2%;
+        .photobooth{
+            padding-left:2.5%;
+            padding-top:7.5%;
+            width:150px;
+        }
+
+    }
+
+    #right{
+        width: 15%;
+        padding: 2%;
+        border-radius: 0.2em;
+        background-color: var(--steel);
+
+
+        .fav_title{
+            font-size: 10px;
+            color: var(--indigo);
+        }
+        .spotify{
+            width: 180px;
+            height: 80px;
+            margin: auto;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        #fav_colors, .fav_foods{
+            width: 180px;
+            margin: auto;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        #favorite{
+            font-size: 14px;
+            color: var(--indigo);
+        
+        }
+    }
+}
+
+
+
+
+
 body{
     background-color: var(--light);
     color: var(--dark);
     font-family: "Optima", sans-serif;
     border-radius: 0.2em;
     text-decoration: none;
-    width:75%;
+    width:85%;
+    height: 100%;
     margin:auto;
     border-style: dotted;
     border-color:var(--sage);
 
 }
 
+
+
+        
+
+        
+
 .nav_text{
     color: var(--light);
     font-family: "Georgia", serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.footer{
+    color: var(--light);
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .active{
@@ -46,96 +168,6 @@ nav, footer{
     padding: 5% 1%;
 }
 
-h1, h2, h3{
-    color: var(--sage);
-    font-family: "Georgia", serif;
-    text-decoration: none;
-
-}
-
-h2, h3{
-    color: var(--steel);
-}
-
-
-p{
-    color: var(--dark);
-    text-decoration: none;
-
-}
-
-h1{
-    width: 80%;
-    margin: auto;
-}
-
-
-.grid1{
-    display:grid;
-    grid-template-columns: auto;
-    width: 80%;
-    margin: auto;
-}
-
-
-
-.news_story{
-    width: 70%;
-    margin: auto;
-    padding: 2.5%;
-    text-align: center;
-    border-style: dotted;
-    border-color:var(--sage);
-}
-
-#impact{
-    grid-area:1/1/2/2;
-}
-
-
-#giv_spotlight{
-    grid-area:2/1/3/2;
-}
-
-#spotlight{
-    grid-area:3/1/4/2;
-}
-
-
-#scholarship{
-    grid-area:4/1/5/2;
-}
-
-
-
-#sophomore_award{
-    grid-area:5/1/6/2;
-}
-
-#giv_insta{
-    grid-area:6/1/7/2;
-}
-
-#wage{
-    grid-area:7/1/8/2;    
-}
-
-#cs_fair{
-    grid-area:8/1/9/2;
-}
-
-#mhs_award{
-    grid-area:9/1/10/2;
-}
-
-#maker{
-    grid-area:10/1/11/2;
-}
-
-#giv{
-    grid-area:11/1/12/2;
-}
-
 
 
 a:link { text-decoration: none; }
@@ -149,82 +181,5 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-#anja_photo{
-    width: 60%;
-    margin: auto;
-    padding: 2.5%;
-}
 
-.header2{
-    margin: auto; 
-}
-
-
-.grid2{
-    display:grid;
-    grid-template-columns: auto auto;
-    width: 80%;
-    margin: auto;
-}
-
-
-
-#bio{
-    width: 80%;
-    margin: auto;
-    padding: 10% 1.5%;
-    margin: auto;
-    padding: 2.5%;
-    text-align: center;
-}
-
-#photo{
-    grid-area:1/1/4/2;
-}
-
-#anja_headshot{
-    width: 20em;
-}
-
-#introduction{
-    grid-area:2/2/3/3;
-}
-
-.img_small{
-    width:15em;
-    padding: 8%;
-}
-
-.news_image{
-    width: 30em;
-}
-
-.grid3{
-    display:grid;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 30 em 30em 30em 30em;
-
-}
-
-.detail{
-    padding: 8%;
-}
-
-.sml_txt{
-    font-size: small;
-    width: 60%;
-    margin: auto;
-}
-
-.about{
-    width: 60%;
-    margin: auto;
-}
-
-#pdf{
-    width: 80%;
-    margin: auto 10%;
-}
 
