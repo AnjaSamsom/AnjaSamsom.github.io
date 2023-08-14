@@ -196,7 +196,8 @@ body{
 
 #pdf{
     width: 80%;
-    margin: auto;
+    height: 100%;
+    margin: auto 10%;
 }
 
 .nav_text{
