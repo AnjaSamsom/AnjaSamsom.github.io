@@ -31,13 +31,9 @@
     margin:auto;
 }
 
-.grid1{
-    background-color: yellow;
 
-}
 
 .news_story{
-    background-color: green;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +43,6 @@
 
 .news_image{
     max-width:70%;
-    background-color: blue;
 }
 
 

@@ -188,13 +188,15 @@ body{
     grid-area:4/1/5/2;
 }
 
-#sophomore_award{
+#giv_insta{
     grid-area:5/1/6/2;
 }
 
-#giv_insta{
+#sophomore_award{
     grid-area:6/1/7/2;
 }
+
+
 
 #wage{
     grid-area:7/1/8/2;    
