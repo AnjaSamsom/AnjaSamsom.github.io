@@ -6,32 +6,19 @@
     --sage:#BFCC94;
 }
 
-#index_flex{
-
-    flex-direction: column;
-    position: relative;
-
-    #left_edge{
-        display: none;
-    }
-
-
-    #left{
-        width: 100%;
-        flex: 28%;
-    }
-
-    #center{
-        width: 100%;
-        flex: 28%
-    }
-
-    #right_edge{
-        display: none;
-
-    }
-
+#main_name{
+    font-size: 4em;
+    text-shadow: 0.03em 0.03em var(--steel);
 }
+
+.nav_text{
+    color: var(--light);
+    font-family: "Georgia", serif;
+    font-size: 0.8em;
+    padding: 2%;
+}
+
+
 
 
 .instagram-media{
