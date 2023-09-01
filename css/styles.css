@@ -88,31 +88,17 @@ body{
             padding-left: 5px;
         }
 
-        
-        #scroll{
-            background-color: var(--sage);
-            overflow: auto;
-            white-space: nowrap;
-            padding: 2%;
-            max-width:100px;
-        }
-              
-            .square_pics{
-                width:100%;
-                max-width:100px;
-
-            }
-        }
+    
     }
 
 
     #left{
         flex: 28%;
         padding: 1%;
-        #anja_headshot{
+        .main_photo{
             width:100%;
-            padding-top: 15%;
-            padding-bottom: 40%;
+            padding-top: 5%;
+            padding-bottom: 5%;
         }
 
     }
@@ -120,9 +106,7 @@ body{
     #center{
         flex: 28%;
         padding: 1%;
-
-
-
+        padding-top: 5%;
     }
 
     #right_edge{
@@ -146,6 +130,8 @@ body{
         }
 
     }
+
+}
 
 
 
@@ -282,6 +268,3 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
-
-
-
