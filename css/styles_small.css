@@ -1,0 +1,34 @@
+:root{
+    --dark: #0D1821;
+    --indigo: #344966;
+    --steel: #B4CDED;
+    --light: #F0F4EF;
+    --sage:#BFCC94;
+}
+
+#index_flex{
+
+    flex-direction: column;
+    position: relative;
+
+    #left_edge{
+        display: none;
+    }
+
+
+    #left{
+        width: 100%;
+        flex: 28%;
+    }
+
+    #center{
+        width: 100%;
+        flex: 28%
+    }
+
+    #right_edge{
+        display: none;
+
+    }
+
+}
