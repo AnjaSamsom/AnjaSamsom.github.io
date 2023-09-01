@@ -1,50 +1,18 @@
-
-
-.bio{
-    max-width:100%;
-    margin: auto;
-    font-size: xx-small;
+#about_flex{
+    #right_edge{
+        display:none;
+    }
 }
 
-.tweet{
-    display: none;
+p, ul, li{
+    font-size: 0.7em;
+}
+
+.middle_p{
+    width: 90%;
 }
 
 
-
-.grid3{
-    display:grid;
-    width: 80%;
-    margin: auto;
-    grid-template-columns: auto;
-
-}
-
-.img_small{
-    width:8em;
-    padding: 8%;
-}
-
-.news_image{
-    width: 9em;
-}
-
-.grid2{
-    width: 60%;
-}
-
-.news_story{
-    width: 20em;
-}
-
-.news_image{
-    width: 10em;
-}
-
-#anja_headshot{
-    width: 10em;
-}
-
-.bio{
-    width: 20em;
+.instagram-media{
+    display:none;
 }
