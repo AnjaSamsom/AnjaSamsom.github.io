@@ -18,6 +18,10 @@
     padding: 2%;
 }
 
+.instagram-media{
+    display: none;
+}
+
 .news_story{
     width: 60%;
     display: block;
