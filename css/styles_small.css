@@ -1,17 +1,17 @@
-:root{
+:root {
     --dark: #0D1821;
     --indigo: #344966;
     --steel: #B4CDED;
     --light: #F0F4EF;
-    --sage:#BFCC94;
+    --sage: #BFCC94;
 }
 
-#main_name{
+#main_name {
     font-size: 4em;
     text-shadow: 0.03em 0.03em var(--steel);
 }
 
-.nav_text{
+.nav_text {
     color: var(--light);
     font-family: "Georgia", serif;
     font-size: 0.8em;
@@ -20,7 +20,7 @@
 
 
 
-.news_story{
+.news_story {
     width: 60%;
     display: block;
     margin-left: auto;
@@ -28,14 +28,14 @@
 
 }
 
-#hey{
-    width:90%;
-    margin:auto;
+#hey {
+    width: 90%;
+    margin: auto;
 }
 
 
 
-.news_story{
+.news_story {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,23 +43,21 @@
 
 }
 
-.news_image{
-    max-width:70%;
+.news_image {
+    max-width: 70%;
 }
 
 
-h2{
+h2 {
     font-size: 0.8em;
 }
 
-h3{
-    font-size:0.6em;
+h3 {
+    font-size: 0.6em;
 }
 
-.news_story{
-    width:80%;
+.news_story {
+    width: 80%;
     margin: auto;
     padding: 3%;
 }
-
-

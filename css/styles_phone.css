@@ -1,18 +1,20 @@
-#about_flex{
-    #right_edge{
-        display:none;
+#about_flex {
+    #right_edge {
+        display: none;
     }
 }
 
-p, ul, li{
+p,
+ul,
+li {
     font-size: 0.7em;
 }
 
-.middle_p{
+.middle_p {
     width: 90%;
 }
 
 
-.disappear{
+.disappear {
     display: none;
 }
