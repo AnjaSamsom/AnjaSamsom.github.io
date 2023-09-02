@@ -167,7 +167,11 @@ body{
 }
 
 .instagram-media{
-    width: 60%;
+    width: 30em;
+    margin: auto;
+}
+
+.disappear{
     margin: auto;
 }
 
