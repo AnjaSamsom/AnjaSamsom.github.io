@@ -181,56 +181,61 @@ body {
     width: 30em;
 }
 
-#eclipse {
+#foundation{
     grid-area: 1/1/2/2;
+  
+}
+
+#eclipse {
+    grid-area: 2/1/3/2;
 }
 
 #impact {
-    grid-area: 2/1/3/2;
+    grid-area: 3/1/4/2;
 }
 
 
 #giv_spotlight {
-    grid-area: 3/1/4/2;
+    grid-area: 4/1/5/2;
 }
 
 #spotlight {
-    grid-area: 4/1/5/2;
+    grid-area: 5/1/6/2;
 }
 
 
 #scholarship {
-    grid-area: 5/1/6/2;
-}
-
-#giv_insta {
     grid-area: 6/1/7/2;
 }
 
-#sophomore_award {
+#giv_insta {
     grid-area: 7/1/8/2;
+}
+
+#sophomore_award {
+    grid-area: 8/1/9/2;
 }
 
 
 
 #wage {
-    grid-area: 8/1/9/2;
-}
-
-#cs_fair {
     grid-area: 9/1/10/2;
 }
 
-#mhs_award {
+#cs_fair {
     grid-area: 10/1/11/2;
 }
 
-#maker {
+#mhs_award {
     grid-area: 11/1/12/2;
 }
 
-#giv {
+#maker {
     grid-area: 12/1/13/2;
+}
+
+#giv {
+    grid-area: 13/1/14/2;
 }
 
 
